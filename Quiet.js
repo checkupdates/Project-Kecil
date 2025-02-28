@@ -236,4 +236,4 @@ Party ${formattedData}
 // Login dengan token bot kamu
 const keepAlive = require("./server.js");
 keepAlive();
-client.login(c.token || process.env.token);
+client.login(process.env.token);
